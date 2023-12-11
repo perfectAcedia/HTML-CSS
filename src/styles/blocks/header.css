@@ -1,0 +1,26 @@
+.menu {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    border: solid black;
+    text-align: center;
+    background-color:bisque;
+    width: 89%;
+}
+
+.menu__item:first-child {
+    width: 10%;
+}
+
+@media screen and (max-width: 360px) {
+    .menu__item {
+        width: 30%;
+    }
+
+    .menu__item:first-child {
+        width: 69%;
+    }
+}
